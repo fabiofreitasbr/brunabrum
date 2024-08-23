@@ -31,10 +31,10 @@ export default function Home() {
             </div>
 
             <div className="my-4 flex md:flex-row flex-col gap-x-4 rounded-xl p-2">
-                <a href="mailto:contato@persevere.com.br" target="_blank">
+                <a href="mailto:contato@brunabrumoficial.com.br" target="_blank">
                     <div className="my-2 md:my-4 flex text-base font-medium text-blue-900 justify-center items-center">
                         <i className="fa-regular fa-envelope text-orange-700 text-xl mx-2"></i>
-                        <div className="mx-2">contato@persevere.com.br</div>
+                        <div className="mx-2">contato@brunabrumoficial.com.br</div>
                     </div>
                 </a>
                 <a href="tel:+5521964646334" target="_blank">
