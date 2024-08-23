@@ -46,7 +46,7 @@ export default function Index() {
                             <div className="px-2"> Se inscreva no canal</div>
                         </div>
                     </Link>
-                    <Link href={ContentLinks.site} target="_blank">
+                    <Link href={ContentLinks.site}>
                         <div className="my-2 px-3 py-2 md:py-2 rounded-full bg-white hover:bg-blue-500 text-blue-500  hover:text-white border-4 md:border-4 border-gray-100 flex justify-center items-center transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">
                             <div className="px-2"><FontAwesomeIcon className='h-6' icon={faLink} /></div>
                             <div className="px-2"> Entre no site</div>
