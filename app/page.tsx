@@ -1,113 +1,64 @@
 import Image from "next/image";
+import BrunaBrum from "@/public/img/brunabrum.jpg"
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:size-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    return (
+        <div className="z-20 fixed flex w-full mx-auto p-4 h-screen items-center justify-center flex-col">
+            <h1 className="text-3xl font-bold underline">
+                <Image width={150} height={150} src={BrunaBrum} className="rounded-full border-2 md:border-4 border-white mx-auto w-24 md:w-36" alt="" />
+            </h1>
+            <div className="my-6 text-center">
+                <div className="text-md my-4 font-bold uppercase text-blue-900">Estamos trabalhando na repaginação do  nosso Site, visando proporcionar aos nossos clientes uma experiência única e agradável</div>
+                <div className="text-md my-4 font-normal uppercase text-gray-500">Aguardem nossa notificação, assim que tudo estiver pronto para entrarmos no ar</div>
+            </div>
+            <div className="my-4 w-full flex justify-center gap-x-2 md:gap-x-4">
+                <div className="text-center w-14 sm:w-28">
+                    <div className="count bg-white my-4 p-2 md:p-4 text-xl md:text-4xl font-medium text-blue-900 border-2 border-orange-700 rounded-md">0</div>
+                    <div className="bg-blue-900 text-[8px] sm:text-xs md:text-base my-2 px-2 md:px-4 py-2 rounded-full text-white">DIAS</div>
+                </div>
+                <div className="text-center w-14 sm:w-28">
+                    <div className="count bg-white my-4 p-2 md:p-4 text-xl md:text-4xl font-medium text-blue-900 border-2 border-orange-700 rounded-md">0</div>
+                    <div className="bg-blue-900 text-[8px] sm:text-xs md:text-base my-2 px-2 md:px-4 py-2 rounded-full text-white">HORAS</div>
+                </div>
+                <div className="text-center w-14 sm:w-28">
+                    <div className="count bg-white my-4 p-2 md:p-4 text-xl md:text-4xl font-medium text-blue-900 border-2 border-orange-700 rounded-md">0</div>
+                    <div className="bg-blue-900 text-[8px] sm:text-xs md:text-base my-2 px-2 md:px-4 py-2 rounded-full text-white">MINUTOS</div>
+                </div>
+                <div className="text-center w-14 sm:w-28">
+                    <div className="count bg-white my-4 p-2 md:p-4 text-xl md:text-4xl font-medium text-blue-900 border-2 border-orange-700 rounded-md">0</div>
+                    <div className="bg-blue-900 text-[8px] sm:text-xs md:text-base my-2 px-2 md:px-4 py-2 rounded-full text-white">SEGUNDOS</div>
+                </div>
+            </div>
+
+            <div className="my-4 flex gap-x-4 border-2 bg-white border-orange-700 rounded-xl p-2 md:p-6">
+                <form action="" method="post">
+                    <div className="flex justify-center flex-col md:flex-row">
+                        <input type="text" placeholder="E-MAIL" className="bg-gray-200 rounded-full py-1 md:py-2 my-2 px-6 text-lg mx-4" />
+                            <button className="bg-blue-900 rounded-full py-1 md:py-2 my-2 px-6 text-lg text-white mx-4 uppercase">Enviar</button>
+                    </div>
+                </form>
+            </div>
+
+            <div className="my-4 flex md:flex-row flex-col gap-x-4 rounded-xl p-2">
+                <a href="mailto:jonas@persevere.com.br" target="_blank">
+                    <div className="my-2 md:my-4 flex text-base font-medium text-blue-900 justify-center items-center">
+                        <i className="fa-regular fa-envelope text-orange-700 text-xl mx-2"></i>
+                        <div className="mx-2">jonas@persevere.com.br</div>
+                    </div>
+                </a>
+                <a href="tel:+5521964646334" target="_blank">
+                    <div className="my-4 flex base-xl font-medium text-blue-900 justify-center items-center">
+                        <i className="fa-solid fa-phone text-orange-700 text-xl mx-2"></i>
+                        <div className="mx-2">(21) 96464-6334</div>
+                    </div>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5521992260747" target="_blank">
+                    <div className="my-2 md:my-4 flex text-base font-medium text-blue-900 justify-center items-center">
+                        <i className="fa-brands fa-whatsapp text-orange-700 text-xl mx-2"></i>
+                        <div className="mx-2">(21) 99226-0747</div>
+                    </div>
+                </a>
+            </div>
         </div>
-      </div>
-
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    );
 }
