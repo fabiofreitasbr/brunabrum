@@ -2,6 +2,7 @@
 import Image from "next/image";
 import BrunaBrum from "@/public/img/brunabrum.jpg"
 import { useState } from "react";
+import ContentLinks from "./Parts/dados/contentLinks";
 
 export default function Home() {
         const data = 'September 10, 2024 00:00:00 GMT-03:00';
@@ -43,22 +44,16 @@ export default function Home() {
             </div>
 
             <div className="my-4 flex md:flex-row flex-col gap-x-4 rounded-xl p-2">
-                <a href="mailto:contato@brunabrumoficial.com.br" target="_blank">
+                <a href={ContentLinks.email} target="_blank">
                     <div className="my-2 md:my-4 flex text-base font-medium text-blue-900 justify-center items-center">
                         <i className="fa-regular fa-envelope text-gray-border-gray-400 text-xl mx-2"></i>
-                        <div className="mx-2">contato@brunabrumoficial.com.br</div>
+                        <div className="mx-2">{ContentLinks.emailShow}</div>
                     </div>
                 </a>
-                <a href="tel:+5521964646334" target="_blank">
+                <a href={ContentLinks.whatsapp} target="_blank">
                     <div className="my-4 flex base-xl font-medium text-blue-900 justify-center items-center">
                         <i className="fa-solid fa-phone text-gray-border-gray-400 text-xl mx-2"></i>
-                        <div className="mx-2">(21) 99999-9999</div>
-                    </div>
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=5521992260747" target="_blank">
-                    <div className="my-2 md:my-4 flex text-base font-medium text-blue-900 justify-center items-center">
-                        <i className="fa-brands fa-whatsapp text-gray-border-gray-400 text-xl mx-2"></i>
-                        <div className="mx-2">(21) 99999-9999</div>
+                        <div className="mx-2">{ContentLinks.whatsappShow}</div>
                     </div>
                 </a>
             </div>
