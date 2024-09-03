@@ -21,6 +21,9 @@ const ContentLinks = {
     tiktok: 'https://www.tiktok.com/@brunabrumoficial',
     tiktokShow: '@brunabrumoficial',
 
+    threads: 'https://www.threads.net/@brunabrumoficial',
+    threadsShow: '@brunabrumoficial',
+
     site: 'https://brunabrumoficial.com.br/',
     siteShow: 'www.brunabrumoficial.com.br',
         

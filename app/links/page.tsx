@@ -1,7 +1,7 @@
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
-import { faYoutube, faInstagram, faFacebookSquare, faTiktok, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube, faInstagram, faFacebookSquare, faTiktok, faWhatsapp, faThreads } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import Image from 'next/image'
 import BrunaBrum from "@/public/img/brunabrum.jpg"
@@ -50,6 +50,12 @@ export default function Index() {
                         <div className="my-2 px-3 py-2 md:py-2 rounded-full bg-white hover:bg-blue-500 text-blue-500  hover:text-white border-4 md:border-4 border-gray-100 flex justify-center items-center transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">
                             <div className="px-2"><FontAwesomeIcon className='h-6' icon={faLink} /></div>
                             <div className="px-2"> Entre no site</div>
+                        </div>
+                    </Link>
+                    <Link href={ContentLinks.threads} target="_blank">
+                        <div className="my-2 px-3 py-2 md:py-2 rounded-full bg-white hover:bg-blue-500 text-blue-500  hover:text-white border-4 md:border-4 border-gray-100 flex justify-center items-center transition ease-in-out hover:-translate-y-1 hover:scale-105 duration-300">
+                            <div className="px-2"><FontAwesomeIcon className='h-6' icon={faThreads} /></div>
+                            <div className="px-2"> {ContentLinks.threadsShow}</div>
                         </div>
                     </Link>
                 </div>
