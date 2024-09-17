@@ -5,7 +5,7 @@ import { useState } from "react";
 import ContentLinks from "./Parts/dados/contentLinks";
 
 export default function Home() {
-        const data = 'September 15, 2024 00:00:00 GMT-03:00';
+        const data = 'September 20, 2024 00:00:00 GMT-03:00';
         const [falta, setFalta] = useState(0);
         const segundos = Math.floor(falta % 60);
         const minutos = Math.floor(falta / 60 % 60);
