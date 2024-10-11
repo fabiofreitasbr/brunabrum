@@ -1,5 +1,6 @@
 const ContentLinks = {
-    
+    titleSite: 'Bruna Brum',
+
 	email: 'mailto:contato@brunabrumoficial.com.br',
     emailShow: 'contato@brunabrumoficial.com.br',
     
@@ -13,7 +14,7 @@ const ContentLinks = {
     facebookShow: '/brunabrumoficial',
 
 	instagram: 'https://instagram.com/brunabrumoficial',
-    instagramShow: '/brunabrumoficial',
+    instagramShow: '@brunabrumoficial',
 
 	youtube: 'https://www.youtube.com/@brunabrumoficial?sub_confirmation=1',
     youtubeShow: '@brunabrumoficial',
