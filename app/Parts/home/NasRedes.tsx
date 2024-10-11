@@ -1,6 +1,7 @@
 import Image from "next/image"
-import NasRedesLista from "@/app/parts/componentes/NasRedesLista"
+
 import imgNasRedes from "@/public/img/redesocial.png"
+import NasRedesLista from "../componentes/NasRedesLista"
 
 export default function NasRedes() {
     return (

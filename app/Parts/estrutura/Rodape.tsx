@@ -1,4 +1,5 @@
-import RodapeRedesSociais from "@/app/parts/componentes/RodapeRedesSociais"
+import RodapeRedesSociais from "../componentes/RodapeRedesSociais";
+
 export default function Rodape() {
     return (
         <footer className="bg-azul-500 py-16">

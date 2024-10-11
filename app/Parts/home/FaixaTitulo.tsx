@@ -1,4 +1,5 @@
-import ContentLinks from "@/app/parts/dados/contentLinks"
+import ContentLinks from "../dados/contentLinks"
+
 
 function NomeFaixa() {
     return (

@@ -1,7 +1,8 @@
-import ContatoForm from "@/app/parts/componentes/ContatoForm"
-import ContatoWhatsApp from "@/app/parts/componentes/ContatoWhatsApp"
+
 import imgConvite from "@/public/img/convite.png"
 import Image from "next/image"
+import ContatoForm from "../componentes/ContatoForm"
+import ContatoWhatsApp from "../componentes/ContatoWhatsApp"
 
 export default function Contato() {
     return (
