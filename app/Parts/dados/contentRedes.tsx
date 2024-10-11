@@ -1,5 +1,5 @@
 import { faFacebookSquare, faInstagram, faTiktok, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import ContentLinks from "./contentLinks";
+import ContentLinks from "@/app/parts/dados/contentLinks";
 
 const redesLista = [
     {

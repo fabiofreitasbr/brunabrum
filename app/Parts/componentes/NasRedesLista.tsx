@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import redesLista from "../dados/contentRedes";
+import redesLista from "@/app/parts/dados/contentRedes";
 
 export default function NasRedesLista() {
     return (
