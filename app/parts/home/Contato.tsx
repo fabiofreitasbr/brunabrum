@@ -1,5 +1,5 @@
-import ContatoForm from "../Componentes/ContatoForm"
-import ContatoWhatsApp from "../Componentes/ContatoWhatsApp"
+import ContatoForm from "../componentes/ContatoForm"
+import ContatoWhatsApp from "../componentes/ContatoWhatsApp"
 import imgConvite from "@/public/img/convite.png"
 import Image from "next/image"
 

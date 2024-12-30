@@ -6,7 +6,7 @@ import Agenda from "@/app/parts/home/Agenda";
 import Contato from "@/app/parts/home/Contato";
 import Rodape from "@/app/parts/estrutura/Footer"
 import FaixaTitulo from "@/app/parts/home/FaixaTitulo";
-import Menu from "@/app/parts/estrutura/menu";
+import Menu from "@/app/parts/estrutura/Menu";
 
 export default function Home() {
     return (

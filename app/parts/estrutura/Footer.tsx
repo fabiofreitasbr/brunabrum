@@ -1,4 +1,4 @@
-import RodapeRedesSociais from "@/app/parts/Componentes/RodapeRedesSociais"
+import RodapeRedesSociais from "@/app/parts/componentes/RodapeRedesSociais"
 import FooterCredits from "@/app/parts/estrutura/FooterCredits"
 export default function Rodape() {
     return (
