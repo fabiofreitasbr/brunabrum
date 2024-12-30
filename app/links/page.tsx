@@ -9,7 +9,7 @@ import ContentLinks from '@/app/parts/dados/contentLinks'
 
 export default function Index() {
     return (
-        <div className="bg-zinc-100 flex justify-center items-start pt-12 md:pt-0 md:items-center min-h-screen">
+        <div className="bg-zinc-100 flex justify-center items-start pt-12 md:pt-0 md:items-center min-h-screen bg-banner bg-cover bg-bottom ">
             <div className="container max-w-sm px-4 ">
                 <div className="mb-4 text-center">
                     <Image width={150} height={150} src={BrunaBrum} className="rounded-full border-2 md:border-4 border-white mx-auto w-24 md:w-36" alt="" />
