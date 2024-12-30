@@ -9,7 +9,7 @@ export default function RodapeRedesSociais() {
                 redesLista.map((singleLista) => (
                     <div key={singleLista.link}>
                         <Link href={singleLista.link} target="_blank">
-                            <FontAwesomeIcon icon={singleLista.icon} className="w-6 md:w-8 xl:w-10 h-6 md:h-8 xl:h-10" />
+                            <FontAwesomeIcon icon={singleLista.icon} className="text-white hover:text-contato w-6 md:w-8 xl:w-10 h-6 md:h-8 xl:h-10" />
                         </Link>
                     </div >
                 ))

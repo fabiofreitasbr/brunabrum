@@ -3,15 +3,45 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
-function Evento() {
+const listEventos = [
+    {
+        data: '11/01',
+        hora: '19:00',
+        dia: 'Sábado',
+        nome: 'Culto de Jovens',
+        local: 'Igreja Apascentar - Queimados'
+    },
+    {
+        data: '11/01',
+        hora: '19:00',
+        dia: 'Sábado',
+        nome: 'Culto de Jovens',
+        local: 'Igreja Apascentar - Queimados'
+    },
+    {
+        data: '11/01',
+        hora: '19:00',
+        dia: 'Sábado',
+        nome: 'Culto de Jovens',
+        local: 'Igreja Apascentar - Queimados'
+    },
+    {
+        data: '11/01',
+        hora: '19:00',
+        dia: 'Sábado',
+        nome: 'Culto de Jovens',
+        local: 'Igreja Apascentar - Queimados'
+    },
+];
+function Evento(props:any) {
     return (
         <div className="border-4 py-4 px-5 md:py-6 md:px-8">
-            <h1 className="text-lg  md:text-xl text-convite" >QUARTA-FEIRA</h1>
-            <p className="text-4xl md:text-5xl my-4 text-blue-500 font-semibold">29/08</p>
-            <p className="xl md:text-3xl my-4 text-marrom-500">às 19:00</p>
+            <h1 className="text-sm md:text-xl text-convite float-right" >{props.dados.dia}</h1>
+            <p className="text-3xl md:text-4xl xl:text-5xl mb-4 text-blue-500 font-semibold">{props.dados.data}</p>
+            <p className="xl md:text-3xl my-4 text-marrom-500">{props.dados.hora}</p>
             <hr className="w-full border my-6" />
-            <p className="text-lg md:text-3xl text-icone uppercase pb-2">prisca</p>
-            <p className="text-sm md:text-xl text-icone font-extrabold">Campos do Jordão</p>
+            <p className="text-base md:text-lg text-icone uppercase pb-2">{props.dados.nome}</p>
+            <p className="text-xs md:text-sm text-icone font-extrabold">{props.dados.local}</p>
         </div>
     )
 }
@@ -47,21 +77,11 @@ export default function Agenda() {
                         autoplay: true,
                     }}
                     aria-label="My Favorite Images">
-                    <SplideSlide>
-                        <Evento />
-                    </SplideSlide>
-                    <SplideSlide>
-                        <Evento />
-                    </SplideSlide>
-                    <SplideSlide>
-                        <Evento />
-                    </SplideSlide>
-                    <SplideSlide>
-                        <Evento />
-                    </SplideSlide>
-                    <SplideSlide>
-                        <Evento />
-                    </SplideSlide>
+                    {listEventos.map((evento, index) => (
+                        <SplideSlide key={index}>
+                            <Evento dados={evento} />
+                        </SplideSlide>
+                    ))}
                 </Splide>
             </div>
         </div>
