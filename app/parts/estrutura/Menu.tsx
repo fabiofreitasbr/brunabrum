@@ -38,7 +38,7 @@ export default function Menu() {
                     </div>
                 </nav>
             </header>
-            <nav onClick={menuBurger} className={"block md:hidden z-40 w-full h-screen bg-white fixed top-0 px-6 pt-28 transition-all duration-300 ease-in-out " + menuNavigation}>
+            <nav onClick={menuBurger} className={"block md:hidden z-40 w-full h-screen bg-white fixed top-0 px-6 pt-10 transition-all duration-300 ease-in-out " + menuNavigation}>
                 <div className="container mx-auto">
                     <ul className="flex flex-col gap-5 xl:gap-10 text-2xl font-medium">
                         <li className="text-amber-900 hover:text-blue-600"><Link href="#inicio">Início</Link></li>

@@ -6,10 +6,10 @@ export default function Rodape() {
             <div className="container mx-auto text-white px-4 ">
                 <div className="md:grid md:grid-cols-2">
                     <div>
-                        <p className=" pt-2 text-center md:text-left text-5xl  md:text-6xl font-bodoni my-1 md:my-3">
+                        <p className=" pt-2 text-center md:text-left text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bodoni my-1 md:my-3">
                             BRUNA BRUM
                         </p>
-                        <p className="text-center md:text-left text-sm md:text-xl">
+                        <p className="text-center md:text-left text-xs md:text-base lg:text-lg xl:text-xl">
                             Todos os direitos reservados.
                         </p>
                     </div>

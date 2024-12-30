@@ -14,7 +14,7 @@ export default function Banner() {
                     <div className="flex flex-col justify-center">
                         <div className="text-blue-500 md:mb-14">
                             <h2 className="text-center md:text-left text-[2rem] md:text-[2.5rem] lg:text-[5rem] text-blue-500 font-bodoni grow uppercase">{ContentLinks.titleSite}</h2>
-                            <h3 className="text-center md:text-left text-3xl  text-amber-900 grow">{ContentLinks.instagramShow} </h3>
+                            <h3 className="text-center md:text-left text-lg md:text-2xl lg:text-3xl  text-amber-900 grow">{ContentLinks.instagramShow} </h3>
                         </div>
                         <div className="py-8 mb-14 md:mb-0">
                             <h2 className="text-xl md:text-3xl lg:text-4xl text-amber-900 text-center pb-6 md:pb-8">Siga-me nas redes sociais</h2>

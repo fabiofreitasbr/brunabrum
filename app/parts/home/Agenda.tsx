@@ -18,9 +18,9 @@ function Evento() {
 
 export default function Agenda() {
     return (
-        <div className="container mx-auto px-4 min-h-[20rem]" id="agenda">
-            <div className="text-center pt-12 pb-8 md:pt-20 md:pb-14">
-                <h2 className="text-center font-bodoni text-3xl xl:text-5xl 2xl:text-6xl text-marrom-500 ">AGENDA</h2>
+        <div className="container mx-auto px-4 min-h-[20rem] py-10 lg:py-12 xl:py-16" id="agenda">
+            <div className="text-center mb-8 md:mb-14">
+                <h2 className="text-center font-bodoni text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-marrom-500 ">AGENDA</h2>
             </div>
             <div className="pb-12 md:pb-28 relative ">
                 <Splide

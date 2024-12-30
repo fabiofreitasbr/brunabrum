@@ -1,5 +1,5 @@
 import About from "@/app/parts/home/Biografia";
-import NasRedes from "@/app/parts/home/NasRedes";
+import NasRedes from "@/app/parts/home/Redes";
 import Banner from "@/app/parts/home/Banner";
 import Midia from "@/app/parts/home/Midia";
 import Agenda from "@/app/parts/home/Agenda";

@@ -8,9 +8,9 @@ const redesLista = [
         link: ContentLinks.instagram
     },
     {
-        title: ContentLinks.facebookShow,
-        icon: faFacebookSquare,
-        link: ContentLinks.facebook
+        title: ContentLinks.youtubeShow,
+        icon: faYoutube,
+        link: ContentLinks.youtube
     },
     {
         title: ContentLinks.tiktokShow,
@@ -18,9 +18,9 @@ const redesLista = [
         link: ContentLinks.tiktok
     },
     {
-        title: ContentLinks.youtubeShow,
-        icon: faYoutube,
-        link: ContentLinks.youtube
+        title: ContentLinks.facebookShow,
+        icon: faFacebookSquare,
+        link: ContentLinks.facebook
     },
 ];
 export default redesLista;

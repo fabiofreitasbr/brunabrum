@@ -6,7 +6,7 @@ export default function NasRedes() {
     return (
         <div className="bg-white py-8 sm:py-10 lg:py-20" id="redes">
             <div className="container mx-auto px-4 relative  ">
-                <h2 className="text-marrom-500 font-bodoni text-3xl xl:text-5xl 2xl:text-6xl text-center mt-2 mb-2 sm:mb-8 md:mb-14">REDES SOCIAIS</h2>
+                <h2 className="text-marrom-500 font-bodoni text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center mt-2 mb-2 sm:mb-8 md:mb-14">REDES SOCIAIS</h2>
                 <div className=" md:grid md:grid-cols-2 ">
                     <NasRedesLista />
                     <div>
