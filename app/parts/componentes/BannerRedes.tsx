@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BannerRedes() {
     return (
-        <div className="flex flex-row gap-x-8 md:gap-x-12 justify-center items-center ">
+        <div className="flex flex-row gap-x-8 md:gap-x-12 justify-center items-center">
             {
                 redesLista.map((singleLista) => (
                     <div key={singleLista.link}>

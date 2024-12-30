@@ -2,7 +2,7 @@ import RodapeRedesSociais from "@/app/parts/componentes/RodapeRedesSociais"
 import FooterCredits from "@/app/parts/estrutura/FooterCredits"
 export default function Rodape() {
     return (
-        <footer className="bg-azul-500 py-8 md:py-16">
+        <footer className="bg-blue-500 py-8 md:py-16">
             <div className="container mx-auto text-white px-4 ">
                 <div className="md:grid md:grid-cols-2">
                     <div>

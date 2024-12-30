@@ -3,9 +3,9 @@ import imgBiografia from "@/public/img/biografia2.png"
 
 export default function Biografia() {
     return (
-        <div className="bg-neutral-100 bg-no-repeat">
+        <div className="bg-neutral-100 bg-no-repeat" id="biografia">
             <div className="container mx-auto px-4">
-                <h2 className="text-azul-500 font-bodoni text-xl xl:text-5xl 2xl:text-6xl text-center pt-4 pb-2  xl:pt-[77px] xl:pb-[19px]">BIOGRAFIA</h2>
+                <h2 className="text-blue-500 font-bodoni text-xl xl:text-5xl 2xl:text-6xl text-center pt-4 pb-2  xl:pt-[77px] xl:pb-[19px]">BIOGRAFIA</h2>
                 <div className="flex-row-2  md:flex md:aling-end md:items-start ">
                     <div className="  text-base md:text-xs xl:text-xl 2xl:text-2xl xl:py-[60px] text-textBio ">
                         <p className="pb-6 xl:pb-8"><span className="font-bold">Bruna Brum</span> é uma jovem cantora gospel de 19 anos, residente <br/> em Queimados, RJ. </p>

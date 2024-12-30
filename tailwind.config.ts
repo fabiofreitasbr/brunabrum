@@ -27,8 +27,9 @@ const config: Config = {
                 bordaAgenda: "#D2D2D2",
                 efeito: "#707070",
                 contato: "#B6B29D",
-                azul: {
-                    "500": "#21406F"
+                blue: {
+                    "500": "#21406F",
+                    "600": "#11204F",
                 },
             },
         },
