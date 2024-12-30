@@ -1,7 +1,7 @@
 import BannerRedes from "@/app/parts/Componentes/BannerRedes"
 import imgBanner from "@/public/img/foto-banner-2.png"
 import Image from "next/image"
-import ContentLinks from "../dados/contentLinks"
+import ContentLinks from "../dados/ContentLinks"
 
 export default function Banner() {
     return (
