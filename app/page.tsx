@@ -1,13 +1,12 @@
-
-import Menu from "./parts/estrutura/Menu";
-import Banner from "./parts/home/Banner";
-import FaixaTitulo from "./parts/home/FaixaTitulo";
-import Agenda from "./parts/home/Agenda";
-import Biografia from "./parts/home/Biografia";
-import Midia from "./parts/home/Midia";
-import NasRedes from "./parts/home/NasRedes";
-import Contato from "./parts/home/Contato";
-import Rodape from "./parts/estrutura/Rodape";
+import About from "./parts/Home/Biografia";
+import NasRedes from "./parts/Home/NasRedes";
+import Banner from "./parts/Home/Banner";
+import Midia from "./parts/Home/Midia";
+import Agenda from "./parts/Home/Agenda";
+import Contato from "./parts/Home/Contato";
+import Rodape from "./parts/estrutura/Footer"
+import FaixaTitulo from "./parts/Home/FaixaTitulo";
+import Menu from "./parts/estrutura/menu";
 
 export default function Home() {
     return (
@@ -16,7 +15,7 @@ export default function Home() {
             <Banner />
             <FaixaTitulo />
             <Agenda />
-            <Biografia />
+            <About />
             <Midia />
             <NasRedes />
             <Contato />

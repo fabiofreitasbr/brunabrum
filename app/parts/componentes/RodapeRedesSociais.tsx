@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Link from "next/link";
 import redesLista from "../dados/contentRedes";
+import Link from "next/link";
 
 export default function RodapeRedesSociais() {
     return (
-        <div className="flex flex-row space-x-10 justify-center pl-16">
+        <div className="flex flex-row md:space-x-12 space-x-10 justify-center  md:pl-16">
             {
                 redesLista.map((singleLista) => (
                     <div key={singleLista.link}>

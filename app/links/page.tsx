@@ -5,7 +5,7 @@ import { faYoutube, faInstagram, faFacebookSquare, faTiktok, faWhatsapp, faThrea
 import Link from 'next/link'
 import Image from 'next/image'
 import BrunaBrum from "@/public/img/brunabrum.jpg"
-import ContentLinks from '../parts/dados/contentLinks'
+import ContentLinks from '@/app/parts/dados/contentLinks'
 
 export default function Index() {
     return (
