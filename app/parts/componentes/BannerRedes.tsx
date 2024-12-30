@@ -9,7 +9,7 @@ export default function BannerRedes() {
                 redesLista.map((singleLista) => (
                     <div key={singleLista.link}>
                         <Link href={singleLista.link} target="_blank">
-                            <FontAwesomeIcon icon={singleLista.icon} className="w-8 md:w-10 text-neutral-600" />
+                            <FontAwesomeIcon icon={singleLista.icon} className="w-8 md:w-10 text-3xl lg:text-4xl xl:text-5xl text-neutral-600" />
                         </Link>
                     </div>
                 ))

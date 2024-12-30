@@ -52,7 +52,7 @@ export default function Agenda() {
             <div className="text-center mb-8 md:mb-14">
                 <h2 className="text-center font-bodoni text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-marrom-500 ">AGENDA</h2>
             </div>
-            <div className="pb-12 md:pb-28 relative ">
+            <div className="pb-5 md:pb-10 relative ">
                 <Splide
                     className="w-full"
                     options={{

@@ -32,7 +32,7 @@ export default function Midia() {
                     {
                         listMidia.map((singleMidia, index) => (
                             <div key={index} className="relative">
-                                <Link href={singleMidia.link} target="_blank"><Image src={singleMidia.img} width={294} height={317} className="full transition duration-300 ease-in-out hover:scale-105" alt="Midia" /></Link>
+                                <Link href={singleMidia.link} target="_blank"><Image src={singleMidia.img} width={1000} height={1000} className="w-full transition duration-300 ease-in-out hover:scale-105 rounded-md lg:rounded-lg xl:rounded-xl" alt="Midia" /></Link>
                             </div>
                         ))
                             
