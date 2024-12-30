@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Contato() {
     return (
-        <div className="bg-neutral-100 pt-10 lg:pt-12 xl:pt-16 overflow-x-hidden" id="contato">
+        <div className="bg-neutral-100 pt-10 lg:pt-12 xl:pt-16 overflow-y-hidden" id="contato">
             <div className="container mx-auto px-4 relative ">
                 <h2 className="text-convite font-bodoni text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-center mb-6">CONVITE</h2>
                 <div className="md:grid md:grid-cols-2 md:items-center">
